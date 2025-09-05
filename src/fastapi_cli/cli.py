@@ -1,7 +1,6 @@
 import json
 import logging
 import sys
-
 from pathlib import Path
 from typing import Any, List, Union
 
@@ -10,7 +9,7 @@ from rich import print
 from rich.tree import Tree
 from typing_extensions import Annotated
 
-from fastapi_cli.discover import get_app, get_import_string, get_import_data
+from fastapi_cli.discover import get_app, get_import_data
 from fastapi_cli.exceptions import FastAPICLIException
 
 from . import __version__

@@ -2,8 +2,8 @@ from pathlib import Path
 
 import pytest
 from pytest import CaptureFixture
-from fastapi_cli.discover import get_app, get_import_string
-from fastapi_cli.discover import get_import_data
+
+from fastapi_cli.discover import get_app, get_import_data
 from fastapi_cli.exceptions import FastAPICLIException
 from tests.utils import changing_dir
 
